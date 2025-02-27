@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .App-header {
@@ -19,4 +20,91 @@ h1 {
 
 p {
   font-size: 1.5rem;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  color: #ffd700;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-content {
+  padding-top: 64px;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?q=80&w=1920");
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ffd700;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.info-section {
+  padding: 4rem 2rem;
+  background-color: white;
+}
+
+.chart-section {
+  padding: 4rem 2rem;
+  background-color: #f5f5f5;
+}
+
+.company-info {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.info-item {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

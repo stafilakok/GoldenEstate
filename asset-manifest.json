@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GoldenEstate/static/css/main.81d174d9.css",
+    "main.js": "/GoldenEstate/static/js/main.8c61052e.js",
+    "index.html": "/GoldenEstate/index.html",
+    "main.81d174d9.css.map": "/GoldenEstate/static/css/main.81d174d9.css.map",
+    "main.8c61052e.js.map": "/GoldenEstate/static/js/main.8c61052e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81d174d9.css",
+    "static/js/main.8c61052e.js"
+  ]
+}
